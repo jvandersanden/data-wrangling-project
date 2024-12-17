@@ -1,0 +1,1 @@
+The data went through 4 major changes and each was recorded in a seperate notebook 00) This scrapes the book data on Amazon's website and sends it to a csv file 01) This cleans the scraped data and the data from Kaggle 02) This joins the two datasets together on the amazon link 03) This creates the visualizations for the final report
