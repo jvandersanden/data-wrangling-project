@@ -1,0 +1,23 @@
+There are 5 datasets that are relevant to this project
+
+1. amazon_raw: This data was scraped from Amazon's website and is the original, uncleaned data
+2. best_selling_books: This data was pulled from Kaggle and is the orginal, uncleaned data
+
+- Link: https://www.kaggle.com/datasets/drahulsingh/best-selling-books
+
+3. amazon_cleaned: This is the scraped data after it was cleaned
+4. This is the kaggle data after it was cleaned
+5. combined_data: This is both of the clean datasets after being merged together on the Amazon link
+
+Data Dictionary:
+| Column | Type | Source | Description |
+|---------------------------------|----------|-----------------------|-----------------------------------------------------------------------------|
+| **book** | Text | Best Selling Books | Title of the book |
+| **author(s)** | Text | Best Selling Books | The author(s) of the book |
+| **original_language** | Text | Best Selling Books | The language that the books were originally written |
+| **first_published** | Numeric | Best Selling Books | The year the book was published |
+| **approximate_sales_in_millions** | Numeric | Best Selling Books | The approximate lifetime sales of the book |
+| **amazon_rating** | Numeric | Amazon | The average rating out of 5 stars |
+| **amazon_sales_rank** | Numeric | Amazon | How well the book sells on Amazon in reference to others (1 is best) |
+| **amazon_total_reviews** | Numeric | Amazon | The total number of reviews for the book |
+| **amazon_link** | URL | Both | URL for each book's Amazon listing |
